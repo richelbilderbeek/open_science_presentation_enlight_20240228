@@ -36,6 +36,7 @@ This is my sketch. It will change. It will be crap until done.
  * Q: who visits that local community
  * OSU: 8 visitors now, many interruptions and discussions, in public library
  * OSU next talk: discussion on National Swedish Guidelines on Open Science
+ * [some points in the discussion]
  * Lemma 1:
     * Proper science takes more time than sloppy science
     * Open Science forces proper science
