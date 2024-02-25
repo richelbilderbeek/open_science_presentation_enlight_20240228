@@ -49,7 +49,8 @@ Who has visited that local community at least once?
 
 ## My statement
 
-`community + literature > 2 * literature`
+`community + literature > 2 * literature`,
+if not working on Open Science as a scientist
 
 # Open Science Uppsala
 
@@ -310,31 +311,9 @@ Neutral about Open Science|Don't         |Don't
 Like Open Science         |Infrastructure|Don't
 Love Open Science         |Infrastructure|Infrastructure
 
-
 ## Next OSU talk
 
 ![](20240315_osu.jpg)
-
-
-## Lemma 1
-
--   Lemma 1:
-
-    -   Proper science takes more time than sloppy science
-    -   Open Science forces proper science
-    -   Hence Open Sciences takes as much or more time
-
--   Lemma 2:
-
-    -   A goal of science is to uncover knowledge/facts/laws
-    -   Knowledge/facts/laws are reproducible
-    -   Science is as good as it is reproducible
-
--   Lemma 3:
-
-    -   Assume a sloppy scientist that starts doing Open Science, who takes twice as long per paper
-    -   Reproducibility of that paper goes up a factor of twenty \[paper\]
-    -   The scientist is 10x a better scientists
 
 # Swedish national Open Science guidelines
 
@@ -349,6 +328,15 @@ Love Open Science         |Infrastructure|Infrastructure
 
 -   More reproducible science
 -   More transparent science
+
+# Discussion
+
+-   I hope to have convinced you on:
+
+`community + literature > 2 * literature`,
+if not working on Open Science as a scientist
+
+-   ENLIGHT is a community too!
 
 
 # References

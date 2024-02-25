@@ -27,18 +27,23 @@ the pros and cons of Open Science and the Uppsala community.
 
 ```mermaid
 flowchart TD
-  subgraph step_1[Step 1: 5 hours]
-    read_literature[Read literature]
+  subgraph preparation[Preparation]
+    subgraph step_1[Step 1: 5 hours]
+      read_literature[Read literature]
+    end
+    subgraph step_2[Step 2: 5 hours]
+      read_talks[Read talks]
+      read_literature_from_talks[Read literature from talks]
+    end
+    subgraph step_3[Step 3: 5 hours]
+      read_literature_again[Read literature again]
+    end
   end
-  subgraph step_2[Step 2: 5 hours]
-    read_talks[Read talks]
-    read_literature_from_talks[Read literature from talks]
+  subgraph talk[Talk: 30 mins]
+    literature_section[Literature section]
+    talk_section[Talks section]
+    literature_section --> talk_section
   end
-  subgraph step_3[Step 3: 5 hours]
-    read_literature_again[Read literature again]
-  end
-  literature_section[Literature section]
-  talk_section[Talks section]
 
   read_literature --> literature_section
   read_literature --> read_talks
