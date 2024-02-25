@@ -16,7 +16,7 @@ number-offset: -1
 
 <https://github.com/richelbilderbeek/open_science_presentation_enlight_20240228> ![](CC0.png)
 
-All puns are unintended!
+Both puns are unintended :sunglasses:!
 
 # Goal
 
@@ -25,7 +25,7 @@ with the hope you will share in the future too.
 
 # Overview
 
--   Who I am
+-   who I am
 -   Open Science Uppsala community
 -   Open Science insights from a literature search
 -   Open Science insights from talks
@@ -42,9 +42,7 @@ with the hope you will share in the future too.
 | German    | 'Ri-shäll'     |
 | Swedish   | 'Ri-kjell'     |
 
-
 ## What I do
-
 
 ::: columns
 ::: {.column width="75%"}
@@ -52,9 +50,10 @@ with the hope you will share in the future too.
 :::
 
 ::: {.column width="25%"}
--   1.75 postdocs
--   Founder of Open Science Uppsala
+-   support of researchers
+-   founder of Open Science Uppsala
 -   <https://github.com/richelbilderbeek>
+-   1.75 postdocs
 :::
 :::
 
@@ -62,8 +61,154 @@ with the hope you will share in the future too.
 
 | Name            | My suggested name       | My reasoning               |
 |-----------------|-------------------------|----------------------------|
+| Open Science    | Science @watson2015will | Open Science is a pleonasm [*] |
 | Regular science | F science               | Not good enough to pass    |
-| Open Science    | Science @watson2015will | Open Science is a pleonasm |
+
+- Registered reports rule! Always!
+- [*] pleonasms: a free gift, a big giant, an actual fact, four different species, nine seperate cars
+
+# Open Science terminology
+
+## My Open Science definition
+
+- The UNESCO definition @unesco
+- My summary of it: 'doing science openly everywhere possible'
+
+![Source: https://en.wikipedia.org/wiki/File:Logo_UNESCO_2021.svg](Logo_UNESCO_2021.png)
+
+## Open Science definition 1/2 @unesco
+
+> [O]pen science  is  defined  as  an  inclusive construct that combines various movements and practices aiming to  make  multilingual  scientific  knowledge  openly  available,  accessible  and  reusable  for  everyone,  to  increase  scientific  collaborations  and  sharing  of  information for the benefits of science and society, and to open the processes of scientific knowledge creation, evaluation and communication to societal actors beyond the traditional scientific community. 
+
+## Open Science definition 2/2 @unesco
+
+> It comprises all scientific disciplines  and  aspects  of  scholarly  practices,  including  basic  and  applied  sciences, natural and social sciences and the humanities, and it builds on the following key pillars: open scientific knowledge, open science infrastructures, science  communication,  open  engagement  of  societal  actors  and  open  dialogue with other knowledge systems.
+
+
+## Open Science overview
+
+![Source: https://en.wikipedia.org/wiki/File:Osc2021-unesco-open-science-no-gray.png](Osc2021-unesco-open-science-no-gray.png)
+
+## Registered reports @chambers2019s
+
+![Source: https://osf.io/ftkq8](chambers_nature_registered_reports.jpg)
+
+## Registered reports @chambers2019s
+
+::: columns
+::: {.column width="70%"}
+![Source: https://osf.io/ftkq8](chambers_nature_registered_reports.jpg)
+:::
+
+::: {.column width="30%"}
+- pre-registration: to register a study before results
+- registered report: a pre-registration that passed peer-review with
+  publication guarantee
+:::
+:::
+
+# The literature
+
+![Source: https://osf.io/ftkq8](reproducibiity_relocates_time.2400x2400.jpeg)
+
+Too bad! This is unsupported by the literature :confused:
+
+## Cons of Open Access
+
+-   less inclusive for the poor @bahlai2019open @ross2022dynamics
+-   cultural and institutional constraints @scheliga2014putting
+
+## Cons of Open Data
+
+-   takes more time @allen2019open @scheliga2014putting
+-   training unaffordable for the poor @bezuidenhout2017beyond @ross2022dynamics
+-   sharing sensitive data is hard @scheliga2014putting
+-   no sanctions (e.g. when embargo has been met) @scheliga2014putting
+-   excludes/inconveniences the industry @ross2022dynamics
+-   lack of legal clarity @scheliga2014putting
+-   cultural and institutional constraints @scheliga2014putting
+
+## Cons of Open Methods
+
+-   takes more time @allen2019open @scheliga2014putting
+-   may diminish qualitative methodologies for the sake of reproducibility @ross2022dynamics
+-   Open Science does not improve statistical power @banks2019answers
+-   lack of standards for sharing research materials @scheliga2014putting
+-   cultural and institutional constraints @scheliga2014putting
+-   are 'how to do research', not 'what to research' @banks2019answers
+-   may be infeasible, e.g. preregistrations @banks2019answers
+
+## Cons of Open Software
+
+-   reluctance to share code @scheliga2014putting
+-   cultural and institutional constraints @scheliga2014putting
+
+## Cons of Open Evaluation
+
+-   Open Peer Review may give bias and exclusion @ross2022dynamics
+-   no stimulus to publish negative results @scheliga2014putting
+-   law of unintended consequences may lead to perverse incentives @banks2019answers
+-   competition between scientists discourages openness @scheliga2014putting,
+    researcher is put in a social dilemma: @scheliga2014putting
+
+## Cons of Open Infrastructure
+
+- not in place yet @banks2019answers @scheliga2014putting
+- financial aspects of openness @scheliga2014putting
+
+## But ...
+
+## Pro 1: F science is a problem @munafo2017manifesto
+
+::: columns
+::: {.column width="85%"}
+![](munafo_et_al_2021_adapted_correct.png)
+:::
+
+::: {.column width="15%"}
+:warning: there exists a version with incorrect/inflated numbers!
+:::
+:::
+
+## Pro 2: reduce publication bias @allen2019open
+
+::: columns
+::: {.column width="40%"}
+![](allen_and_mehler_2019_modified.png)
+:::
+
+::: {.column width="60%"}
+- The file drawer problem
+- Registered reports: publish part of paper before collecting data
+:::
+:::
+
+## Pro 3: better papers 1/3 @soderberg2021initial
+
+![](soderberg_et_al_2021_top.png)
+
+> 5.3 versus 6.3 (on a 10 point scale) for 'Quality of methods',
+> a 19% increase
+
+<!-- 
+It was found that registered reports
+scored better on all criteria. On such criteria is 'Method quality',
+where 'regular' papers score 0.29 on average, where registered reports scored.
+1.05. Rescaling these values from a [-4, 4] to a [0, 8] scale 
+(by simply adding 4.0), results in values 4.29 and 5.05 respectively.
+From that one can conclude that registered reports have an 18% higher method quality.
+If that percentage is worth it, is still an open question.
+-->
+
+## Pro 3: better papers 2/3 @soderberg2021initial
+
+![](soderberg_et_al_2021_middle.png)
+
+## Pro 3: better papers 3/3 @soderberg2021initial
+
+![](soderberg_et_al_2021_bottom.png)
+
+# The Open Science Uppsala community
 
 ## Question 1
 
@@ -78,14 +223,16 @@ Who has visited that local community at least once?
 `community + literature > 2 * literature`,
 if not working on Open Science as a scientist
 
-# Open Science Uppsala
 
-![](osu_logo_25.png)
-
-## OSU goals
+## Open Science Uppsala goals
 
 ::: columns
-::: {.column width="50%"}
+
+::: {.column width="40%"}
+![](osu_logo_25.png)
+:::
+
+::: {.column width="30%"}
 -   teach
 -   **discuss**
 -   English
@@ -93,79 +240,13 @@ if not working on Open Science as a scientist
 -   everyone
 :::
 
-::: {.column width="50%"}
+::: {.column width="30%"}
 -   Uppsala
 -   free
 -   publicly
 -   scholarly
 :::
 :::
-
-# This talk
-
-- Literature: 
-    - What I already knew
-    - What I learned from the literature
-    - `"Open Science" + problems` and synonyms
-    - Please send me (references to) papers!
-- Community: 
-    - What I learned in OSU
-
-# The literature
-
-## Pro of Open Science
-
-- Open Science is just (grade A) science @watson2015will
-- greater faith in research @allen2019open
-
-## Overview of Open Science facets
-
-![Source: https://en.wikipedia.org/wiki/File:Osc2021-unesco-open-science-no-gray.png](Osc2021-unesco-open-science-no-gray.png)
-
-## Cons of Open Access
-
--   less inclusive for the poor @bahlai2019open @ross2022dynamics
--   cultural and institutional constraints @scheliga2014putting
-
-## Cons of Open Data
-
--   training unaffordable for the poor @bezuidenhout2017beyond @ross2022dynamics
--   sharing sensitive data is hard @scheliga2014putting
--   no sanctions (e.g. when embargo has been met, 'Ineffective policy guidelines' @scheliga2014putting
--   takes more time @allen2019open @scheliga2014putting
--   excludes/inconveniences the industry @ross2022dynamics
--   Lack of legal clarity @scheliga2014putting
--   cultural and institutional constraints @scheliga2014putting
-
-## Cons of Open Methods
-
--   may diminish qualitative methodologies for the sake of reproducibility @ross2022dynamics
--   Open Science does not improve statistical power @banks2019answers
--   lack of standards for sharing research materials @scheliga2014putting
--   takes more time @allen2019open @scheliga2014putting
--   cultural and institutional constraints @scheliga2014putting
--   are 'how', not 'what to' study @banks2019answers
--   may be infeasible, e.g. preregistrations @banks2019answers
-
-## Cons of Open Source Software
-
--   Reluctance to share code @scheliga2014putting
--   cultural and institutional constraints @scheliga2014putting
-
-## Cons of Open Evaluation
-
--   Open Peer Review: may give bias and exclusion @ross2022dynamics
--   No stimulus to publish negative results @scheliga2014putting
--   Competition discourages openness ('Evaluation criteria impede openness', @scheliga2014putting)
--   law of unintended consequences may lead to perverse incentives @banks2019answers
--   researcher is put in a social dilemma: @scheliga2014putting
-
-## Cons of Open Infrastructure
-
-- not in place yet @banks2019answers @scheliga2014putting
-- financial aspects of openness @scheliga2014putting
-
-# The Open Science Uppsala community
 
 ## It takes time to setup an infrastructure
 
@@ -189,11 +270,11 @@ See also @banks2019answers @scheliga2014putting.
 ## Open may be unfair to companies
 
 ::: columns
-::: {.column width="50%"}
+::: {.column width="75%"}
 ![](20230908_martin.png)
 :::
 
-::: {.column width="50%"}
+::: {.column width="25%"}
 A company can be built around a non-sharable resource.
 It would be unfair to share that resource.
 
@@ -201,15 +282,14 @@ See also @ross2022dynamics
 :::
 :::
 
-
 ## Open source alleviates constraints
 
 ::: columns
-::: {.column width="50%"}
+::: {.column width="65%"}
 ![](20240209_douglas.jpg)
 :::
 
-::: {.column width="50%"}
+::: {.column width="35%"}
 Openly develop useful software and avoiding bureaucracy
 helps your software getting used
 
@@ -217,40 +297,43 @@ See also @scheliga2014putting on cultural and institutional constraints.
 :::
 :::
 
-## Open science in qualitative research is different
+## Qualitative research is different
 
 ::: columns
-::: {.column width="50%"}
+::: {.column width="75%"}
 ![](20231208_anna.jpg)
 :::
 
-::: {.column width="50%"}
+::: {.column width="25%"}
 Replication does not make sense for qualitative papers,
 (e.g. 'What is democracy?'), 
 so those fields need to be judged differently.
+
+See also @banks2019answers.
 :::
 :::
 
-## Citizen science can help find individual effects
+## Citizen science helps
 
 ::: columns
-::: {.column width="50%"}
+::: {.column width="75%"}
 ![](20231020_ismail.jpg)
 :::
 
-::: {.column width="50%"}
-Achieving statistical power ignores the individual
+::: {.column width="25%"}
+Achieving statistical power ignores the individual.
+Citizen science helps find strong effects in few individuals.
 :::
 :::
 
 ## Preregistration with statistical power 1/2
 
 ::: columns
-::: {.column width="50%"}
+::: {.column width="75%"}
 ![](20231110_adam.jpg)
 :::
 
-::: {.column width="50%"}
+::: {.column width="25%"}
 One can do a specification curve analysis
 in a pre-registered study to keep statistical power
 :::
@@ -263,14 +346,14 @@ in a pre-registered study to keep statistical power
 ## Science is more complex 1/4
 
 ::: columns
-::: {.column width="50%"}
+::: {.column width="40%"}
 ![](gustav_nilsonne.jpg)
 :::
 
-::: {.column width="50%"}
-Even if data is open, 
-different teams can draw opposite conclusions
-with high confidence  @botvinik2020variability
+::: {.column width="60%"}
+- Gustav Nilsonne
+- Even if data is open, different teams can draw opposite conclusions with high confidence  @botvinik2020variability
+- This makes interpreting results even harder!
 :::
 :::
 
@@ -284,11 +367,11 @@ treatment A and B'
 ## Science is more complex 3/4 @botvinik2020variability
 
 ::: columns
-::: {.column width="50%"}
+::: {.column width="40%"}
 ![](botvin-nezer_et_al_2020_top_half.png)
 :::
 
-::: {.column width="50%"}
+::: {.column width="40%"}
 ![](botvin-nezer_et_al_2020_bottom_half.png)
 :::
 :::
@@ -297,34 +380,41 @@ treatment A and B'
 
 ![](botvin-nezer_et_al_2020_some_rows.png)
 
+And we are confident! Compare hypothesis 2 for team 2 and 4!
 
 ## Bias for preregistration
 
-- My bias: likelier to believe preregistrations
-- 'If not open, I do not believe you'
+> Good science means never needing to say 'trust me'.
+> Simine Vazire
+
+- My bias: likelier to believe open science papers, especially preregistrations
+- Please ask me to participate in your experiment with hypothesis
+  'Mock papers labeled as preregistrations pass peer review more often'!
 
 ## Cultural limits Open infrastructure 1/4
 
 My worry: 
 
-- cultural constraints limit (well-willing!) development of Open infrastructure
-- procedure-first, instead of scientists-first
+- Cultural constraints limit (well-willing!) development of Open infrastructure
+- Procedure-first, instead of scientists-first
+- Please ask me to participate in your experiment with title
+  'The relation between administrative load and open data published over
+  multiple countries'
 
 ## Cultural limits Open infrastructure 2/4
 
-What a scientist needs to do (example from  <https://www.scilifelab.se/data/repository/submission/>):
+What a Swedish life-science scientist needs to do 
+(example from  <https://www.scilifelab.se/data/repository/submission/>):
 
 1. Read Submission Guidelines
 1. Submit (many steps)
 1. Wait for a human to review
 
-See also @bowman2023open
-
-<!--  They avoid the discussion how science admin should be organized -->
+See also @bowman2023open <!--  They avoid the discussion how science admin should be organized -->
 
 ## Cultural limits Open infrastructure 3/4
 
-What a scientists wants:
+What I want:
 
 1. dump the data in 5 minutes
 1. get direct automated review that can be ignored
@@ -333,13 +423,14 @@ What a scientists wants:
 
 ## Cultural limits Open infrastructure 4/4
 
-My recommendation table:
+My recommendation table in Sweden today:
 
-How to publish data       |Dislike admin |Hate admin
---------------------------|--------------|------------
-Neutral about Open Science|Don't         |Don't
-Like Open Science         |Infrastructure|Don't
-Love Open Science         |Infrastructure|Infrastructure
+Open Science  |Admin            |Publish FAIR data?
+--------------|-----------------|------------------
+Love          |-                |Yes
+Like          |Dislike          |No
+Like          |Less than dislike|Yes
+Less than like|-                |No
 
 # Another community
 
@@ -373,4 +464,3 @@ if not working on Open Science as a scientist
 -   Please enlighten me with more references to the literature!
 
 # References
-
