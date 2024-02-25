@@ -14,7 +14,9 @@ number-offset: -1
 
 # This presentation
 
-<https://github.com/richelbilderbeek/open_science_presentation_enlight_20240228> ![](CC-BY-NC-SA.png)
+<https://github.com/richelbilderbeek/open_science_presentation_enlight_20240228> ![](CC0.png)
+
+All puns are unintended!
 
 # Goal
 
@@ -23,16 +25,26 @@ To share some insights of my local Open Science community.
 # Overview
 
 -   Who I am
--   Open Science Uppsala
--   Open Science pros and cons
--   ?Swedish national Open Science guidelines
+-   Open Science Uppsala community
+-   Open Science insights from a literature search
+-   Open Science insights from talks
 
-# Who am I
+# What I do
 
--   1.5 postdocs
--   Open Science Uppsala founder
 
-## My view on Open Science
+::: columns
+::: {.column width="75%"}
+![](my_github_profile.png)
+:::
+
+::: {.column width="25%"}
+-   1.75 postdocs
+-   Founder of Open Science Uppsala
+-   <https://github.com/richelbilderbeek>
+:::
+:::
+
+## What I think
 
 | Name            | My suggested name       | My reasoning               |
 |-----------------|-------------------------|----------------------------|
@@ -75,17 +87,15 @@ if not working on Open Science as a scientist
 :::
 :::
 
-# Pros and cons of Open Science
+# This talk
 
-- `literature`: show literature
-    - 10 hours
+- Literature: 
+    - What I already knew
+    - What I learned from the literature
     - `"Open Science" + problems` and synonyms
     - Please send me (references to) papers!
-- `community`: things I learned in OSU
-- 'Pro' == advantages of today and future
-- 'Con' == disadvantages and challenges as of today and future
-
-Focus on cons: we should always be critical, also on things we love.
+- Community: 
+    - What I learned in OSU
 
 # The literature
 
@@ -280,7 +290,10 @@ treatment A and B'
 
 ## Cultural limits Open infrastructure 1/4
 
-My worry: cultural constraints limit (well-willing!) development of Open infrastructure
+My worry: 
+
+- cultural constraints limit (well-willing!) development of Open infrastructure
+- procedure-first, instead of scientists-first
 
 ## Cultural limits Open infrastructure 2/4
 
@@ -290,6 +303,10 @@ What a scientist needs to do (example from  <https://www.scilifelab.se/data/repo
 1. Submit (many steps)
 1. Wait for a human to review
 
+See also @bowman2023open
+
+<!--  They avoid the discussion how science admin should be organized -->
+
 ## Cultural limits Open infrastructure 3/4
 
 What a scientists wants:
@@ -298,8 +315,6 @@ What a scientists wants:
 1. get direct automated review that can be ignored
 1. be contacted later
 1. data steward does most of the work
-
-See also @bowman2023open
 
 ## Cultural limits Open infrastructure 4/4
 
@@ -331,13 +346,14 @@ Love Open Science         |Infrastructure|Infrastructure
 
 # Discussion
 
--   I hope to have convinced you on:
+-   I hope to have convinced you that ...
 
 `community + literature > 2 * literature`,
 if not working on Open Science as a scientist
 
+-   ... is true, because people have broader ideas than you search the literature for
 -   ENLIGHT is a community too!
-
+-   Please enlighten me with more references to the literature!
 
 # References
 
