@@ -20,7 +20,8 @@ All puns are unintended!
 
 # Goal
 
-To share some insights of my local Open Science community.
+To share some insights of my local Open Science community,
+with the hope you will share in the future too.
 
 # Overview
 
@@ -151,7 +152,7 @@ if not working on Open Science as a scientist
 - not in place yet @banks2019answers @scheliga2014putting
 - financial aspects of openness @scheliga2014putting
 
-# The community
+# The Open Science Uppsala community
 
 ## It takes time to setup an infrastructure
 
@@ -283,6 +284,7 @@ treatment A and B'
 
 ![](botvin-nezer_et_al_2020_some_rows.png)
 
+
 ## Bias for preregistration
 
 - My bias: likelier to believe preregistrations
@@ -326,23 +328,25 @@ Neutral about Open Science|Don't         |Don't
 Like Open Science         |Infrastructure|Don't
 Love Open Science         |Infrastructure|Infrastructure
 
-## Next OSU talk
+# Another community
 
-![](20240315_osu.jpg)
+## Lack of institutional support
 
-# Swedish national Open Science guidelines
+::: columns
+::: {.column width="80%"}
+![](poll_enlight_obstacles_modified.png)
+:::
 
-1.  Open access to scientific publications
-2.  Open access to research data
-3.  Open research methods
-4.  Open learning resources
-5.  Public participation in the research process
-6.  Infrastructures that support open science
+::: {.column width="20%"}
+Previous ENLIGHT webinar!
+602 researchers.
+<https://zenodo.org/records/10528857>
+:::
+:::
 
-# Pros and cons
+## How to support
 
--   More reproducible science
--   More transparent science
+![](poll_enlight_how_support.png)
 
 # Discussion
 
