@@ -9,42 +9,347 @@ csl: vancouver.csl
 css: styles.css
 slide-number: true
 number-sections: true
-number-offset: 0
+number-offset: -1
 ---
+
+# This presentation
+
+<https://github.com/richelbilderbeek/open_science_presentation_enlight_20240228> ![](CC-BY-NC-SA.png)
+
+# Goal
+
+To share some insights of my local Open Science community.
+
+# Overview
+
+-   Who I am
+-   Open Science Uppsala
+-   Open Science pros and cons
+-   ?Swedish national Open Science guidelines
 
 # Who am I
 
-- Open Science is a pleonasm
-- Did not leave academia due to discovery of Open Science
-- Abort a position in academia, as not allowed to do Open Science
-- Started Open Science Uppsala
+-   1.5 postdocs
+-   Open Science Uppsala founder
 
- * Q: who lives in a town with a local community?
- * Q: who visits that local community
+## My view on Open Science
+
+| Name            | My suggested name       | My reasoning               |
+|-----------------|-------------------------|----------------------------|
+| Regular science | F science               | Not good enough to pass    |
+| Open Science    | Science @watson2015will | Open Science is a pleonasm |
+
+## Question 1
+
+Who lives in a town with a local community?
+
+## Question 2
+
+Who has visited that local community at least once?
+
+## My statement
+
+`community + literature > 2 * literature`
 
 # Open Science Uppsala
 
-- The local Uppsala community
-- in public library
-- around 6 regular visitors
-- many interruptions and discussions
-- next talk: discussion on National Swedish Guidelines on Open Science
- 
+![](osu_logo_25.png)
 
- * [some points in the discussion]
- * Lemma 1:
-    * Proper science takes more time than sloppy science
-    * Open Science forces proper science
-    * Hence Open Sciences takes as much or more time
- * Lemma 2:
-    * A goal of science is to uncover knowledge/facts/laws
-    * Knowledge/facts/laws are reproducible
-    * Science is as good as it is reproducible
- * Lemma 3:
-    * Assume a sloppy scientist that starts doing Open Science,
-      who takes twice as long per paper
-    * Reproducibility of that paper goes up a factor of twenty [paper]
-    * The scientist is 10x a better scientists
+## OSU goals
+
+::: columns
+::: {.column width="50%"}
+-   teach
+-   **discuss**
+-   English
+-   regularly
+-   everyone
+:::
+
+::: {.column width="50%"}
+-   Uppsala
+-   free
+-   publicly
+-   scholarly
+:::
+:::
+
+# Pros and cons of Open Science
+
+- `literature`: show literature
+    - 10 hours
+    - `"Open Science" + problems` and synonyms
+    - Please send me (references to) papers!
+- `community`: things I learned in OSU
+- 'Pro' == advantages of today and future
+- 'Con' == disadvantages and challenges as of today and future
+
+Focus on cons: we should always be critical, also on things we love.
+
+# The literature
+
+## Pro of Open Science
+
+- Open Science is just (grade A) science @watson2015will
+- greater faith in research @allen2019open
+
+## Overview of Open Science facets
+
+![Source: https://en.wikipedia.org/wiki/File:Osc2021-unesco-open-science-no-gray.png](Osc2021-unesco-open-science-no-gray.png)
+
+## Cons of Open Access
+
+-   less inclusive for the poor @bahlai2019open @ross2022dynamics
+-   cultural and institutional constraints @scheliga2014putting
+
+## Cons of Open Data
+
+-   training unaffordable for the poor @bezuidenhout2017beyond @ross2022dynamics
+-   sharing sensitive data is hard @scheliga2014putting
+-   no sanctions (e.g. when embargo has been met, 'Ineffective policy guidelines' @scheliga2014putting
+-   takes more time @allen2019open @scheliga2014putting
+-   excludes/inconveniences the industry @ross2022dynamics
+-   Lack of legal clarity @scheliga2014putting
+-   cultural and institutional constraints @scheliga2014putting
+
+## Cons of Open Methods
+
+-   may diminish qualitative methodologies for the sake of reproducibility @ross2022dynamics
+-   Open Science does not improve statistical power @banks2019answers
+-   lack of standards for sharing research materials @scheliga2014putting
+-   takes more time @allen2019open @scheliga2014putting
+-   cultural and institutional constraints @scheliga2014putting
+-   are 'how', not 'what to' study @banks2019answers
+-   may be infeasible, e.g. preregistrations @banks2019answers
+
+## Cons of Open Source Software
+
+-   Reluctance to share code @scheliga2014putting
+-   cultural and institutional constraints @scheliga2014putting
+
+## Cons of Open Evaluation
+
+-   Open Peer Review: may give bias and exclusion @ross2022dynamics
+-   No stimulus to publish negative results @scheliga2014putting
+-   Competition discourages openness ('Evaluation criteria impede openness', @scheliga2014putting)
+-   law of unintended consequences may lead to perverse incentives @banks2019answers
+-   researcher is put in a social dilemma: @scheliga2014putting
+
+## Cons of Open Infrastructure
+
+- not in place yet @banks2019answers @scheliga2014putting
+- financial aspects of openness @scheliga2014putting
+
+# The community
+
+## It takes time to setup an infrastructure
+
+::: columns
+::: {.column width="50%"}
+![](20230609_barbro.jpg)
+
+![https://en.wikipedia.org/wiki/File:FAIR_data_principles.jpg](FAIR_data_principles.jpg)
+:::
+
+::: {.column width="50%"}
+Developing how to make data FAIR.
+Sometimes, the machines come to the researches,
+but sometimes they need to visit the facility
+
+Resulted in @larsson2023fair.
+See also @banks2019answers @scheliga2014putting.
+:::
+:::
+
+## Open may be unfair to companies
+
+::: columns
+::: {.column width="50%"}
+![](20230908_martin.png)
+:::
+
+::: {.column width="50%"}
+A company can be built around a non-sharable resource.
+It would be unfair to share that resource.
+
+See also @ross2022dynamics
+:::
+:::
+
+
+## Open source alleviates constraints
+
+::: columns
+::: {.column width="50%"}
+![](20240209_douglas.jpg)
+:::
+
+::: {.column width="50%"}
+Openly develop useful software and avoiding bureaucracy
+helps your software getting used
+
+See also @scheliga2014putting on cultural and institutional constraints.
+:::
+:::
+
+## Open science in qualitative research is different
+
+::: columns
+::: {.column width="50%"}
+![](20231208_anna.jpg)
+:::
+
+::: {.column width="50%"}
+Replication does not make sense for qualitative papers,
+(e.g. 'What is democracy?'), 
+so those fields need to be judged differently.
+:::
+:::
+
+## Citizen science can help find individual effects
+
+::: columns
+::: {.column width="50%"}
+![](20231020_ismail.jpg)
+:::
+
+::: {.column width="50%"}
+Achieving statistical power ignores the individual
+:::
+:::
+
+## Preregistration with statistical power 1/2
+
+::: columns
+::: {.column width="50%"}
+![](20231110_adam.jpg)
+:::
+
+::: {.column width="50%"}
+One can do a specification curve analysis
+in a pre-registered study to keep statistical power
+:::
+:::
+
+## Preregistration with statistical power 2/2 @simonsohn2020specification
+
+![](simonsohn_et_al_2020_fig_2_modified_higher_better_legend.png)
+
+## Science is more complex 1/4
+
+::: columns
+::: {.column width="50%"}
+![](gustav_nilsonne.jpg)
+:::
+
+::: {.column width="50%"}
+Even if data is open, 
+different teams can draw opposite conclusions
+with high confidence  @botvinik2020variability
+:::
+:::
+
+## Science is more complex 2/4 @botvinik2020variability
+
+![](botvik-nezer_et_al_2020_fig_2.png)
+
+Hypotheses: 'There is [an effect] in [a brain area] between
+treatment A and B'
+
+## Science is more complex 3/4 @botvinik2020variability
+
+::: columns
+::: {.column width="50%"}
+![](botvin-nezer_et_al_2020_top_half.png)
+:::
+
+::: {.column width="50%"}
+![](botvin-nezer_et_al_2020_bottom_half.png)
+:::
+:::
+
+## Science is more complex 4/4 @botvinik2020variability
+
+![](botvin-nezer_et_al_2020_some_rows.png)
+
+## Bias for preregistration
+
+- My bias: likelier to believe preregistrations
+- 'If not open, I do not believe you'
+
+## Cultural limits Open infrastructure 1/4
+
+My worry: cultural constraints limit (well-willing!) development of Open infrastructure
+
+## Cultural limits Open infrastructure 2/4
+
+What a scientist needs to do (example from  <https://www.scilifelab.se/data/repository/submission/>):
+
+1. Read Submission Guidelines
+1. Submit (many steps)
+1. Wait for a human to review
+
+## Cultural limits Open infrastructure 3/4
+
+What a scientists wants:
+
+1. dump the data in 5 minutes
+1. get direct automated review that can be ignored
+1. be contacted later
+1. data steward does most of the work
+
+See also @bowman2023open
+
+## Cultural limits Open infrastructure 4/4
+
+My recommendation table:
+
+How to publish data       |Dislike admin |Hate admin
+--------------------------|--------------|------------
+Neutral about Open Science|Don't         |Don't
+Like Open Science         |Infrastructure|Don't
+Love Open Science         |Infrastructure|Infrastructure
+
+
+## Next OSU talk
+
+![](20240315_osu.jpg)
+
+
+## Lemma 1
+
+-   Lemma 1:
+
+    -   Proper science takes more time than sloppy science
+    -   Open Science forces proper science
+    -   Hence Open Sciences takes as much or more time
+
+-   Lemma 2:
+
+    -   A goal of science is to uncover knowledge/facts/laws
+    -   Knowledge/facts/laws are reproducible
+    -   Science is as good as it is reproducible
+
+-   Lemma 3:
+
+    -   Assume a sloppy scientist that starts doing Open Science, who takes twice as long per paper
+    -   Reproducibility of that paper goes up a factor of twenty \[paper\]
+    -   The scientist is 10x a better scientists
+
+# Swedish national Open Science guidelines
+
+1.  Open access to scientific publications
+2.  Open access to research data
+3.  Open research methods
+4.  Open learning resources
+5.  Public participation in the research process
+6.  Infrastructures that support open science
+
+# Pros and cons
+
+-   More reproducible science
+-   More transparent science
 
 
 # References
+

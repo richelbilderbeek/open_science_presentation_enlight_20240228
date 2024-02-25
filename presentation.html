@@ -29,7 +29,26 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
-  </style>
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
   <link rel="stylesheet" href="presentation_files/libs/revealjs/dist/theme/quarto.css" id="theme">
   <link rel="stylesheet" href="styles.css">
   <link href="presentation_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
@@ -337,21 +356,442 @@ Richèl Bilderbeek
 </div>
 
 </section>
-<section class="slide level2">
-
-<p><img data-src="CC-BY-NC-SA.png"> Richèl Bilderbeek</p>
+<section id="this-presentation" class="title-slide slide level1 center" data-number="0">
+<h1><span class="header-section-number">0</span> This presentation</h1>
+<p><a href="https://github.com/richelbilderbeek/open_science_presentation_enlight_20240228" class="uri">https://github.com/richelbilderbeek/open_science_presentation_enlight_20240228</a> <img data-src="CC-BY-NC-SA.png"></p>
 </section>
-<section id="problem" class="slide level2" data-number="0.1">
-<h2><span class="header-section-number">0.1</span> Problem</h2>
+
+<section id="goal" class="title-slide slide level1 center" data-number="1">
+<h1><span class="header-section-number">1</span> Goal</h1>
+<p>To share some insights of my local Open Science community.</p>
+</section>
+
+<section id="overview" class="title-slide slide level1 center" data-number="2">
+<h1><span class="header-section-number">2</span> Overview</h1>
 <ul>
-<li>EU/UNESCO want Open Science</li>
-<li>in Sweden, there is a gap between current practices and Open Science</li>
+<li>Who I am</li>
+<li>Open Science Uppsala</li>
+<li>Open Science pros and cons</li>
+<li>?Swedish national Open Science guidelines</li>
 </ul>
 </section>
-<section id="references" class="title-slide slide level1 center" data-number="1">
-<h1><span class="header-section-number">1</span> References</h1>
+
+<section>
+<section id="who-am-i" class="title-slide slide level1 center" data-number="3">
+<h1><span class="header-section-number">3</span> Who am I</h1>
+<ul>
+<li>1.5 postdocs</li>
+<li>Open Science Uppsala founder</li>
+</ul>
+</section>
+<section id="my-view-on-open-science" class="slide level2" data-number="3.1">
+<h2><span class="header-section-number">3.1</span> My view on Open Science</h2>
+<table>
+<colgroup>
+<col style="width: 24%">
+<col style="width: 35%">
+<col style="width: 40%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Name</th>
+<th>My suggested name</th>
+<th>My reasoning</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Regular science</td>
+<td>F science</td>
+<td>Not good enough to pass</td>
+</tr>
+<tr class="even">
+<td>Open Science</td>
+<td>Science <span class="citation" data-cites="watson2015will">(<a href="#/references" role="doc-biblioref" onclick="">1</a>)</span></td>
+<td>Open Science is a pleonasm</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="question-1" class="slide level2" data-number="3.2">
+<h2><span class="header-section-number">3.2</span> Question 1</h2>
+<p>Who lives in a town with a local community?</p>
+</section>
+<section id="question-2" class="slide level2" data-number="3.3">
+<h2><span class="header-section-number">3.3</span> Question 2</h2>
+<p>Who has visited that local community at least once?</p>
+</section>
+<section id="my-statement" class="slide level2" data-number="3.4">
+<h2><span class="header-section-number">3.4</span> My statement</h2>
+<p><code>community + literature &gt; 2 * literature</code></p>
+</section></section>
+<section>
+<section id="open-science-uppsala" class="title-slide slide level1 center" data-number="4">
+<h1><span class="header-section-number">4</span> Open Science Uppsala</h1>
+
+<img data-src="osu_logo_25.png" class="r-stretch"></section>
+<section id="osu-goals" class="slide level2" data-number="4.1">
+<h2><span class="header-section-number">4.1</span> OSU goals</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>teach</li>
+<li><strong>discuss</strong></li>
+<li>English</li>
+<li>regularly</li>
+<li>everyone</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<ul>
+<li>Uppsala</li>
+<li>free</li>
+<li>publicly</li>
+<li>scholarly</li>
+</ul>
+</div>
+</div>
+</section></section>
+<section id="pros-and-cons-of-open-science" class="title-slide slide level1 center" data-number="5">
+<h1><span class="header-section-number">5</span> Pros and cons of Open Science</h1>
+<ul>
+<li><code>literature</code>: show literature
+<ul>
+<li>10 hours</li>
+<li><code>"Open Science" + problems</code> and synonyms</li>
+<li>Please send me (references to) papers!</li>
+</ul></li>
+<li><code>community</code>: things I learned in OSU</li>
+<li>‘Pro’ == advantages of today and future</li>
+<li>‘Con’ == disadvantages and challenges as of today and future</li>
+</ul>
+<p>Focus on cons: we should always be critical, also on things we love.</p>
+</section>
+
+<section>
+<section id="the-literature" class="title-slide slide level1 center" data-number="6">
+<h1><span class="header-section-number">6</span> The literature</h1>
+
+</section>
+<section id="pro-of-open-science" class="slide level2" data-number="6.1">
+<h2><span class="header-section-number">6.1</span> Pro of Open Science</h2>
+<ul>
+<li>Open Science is just (grade A) science <span class="citation" data-cites="watson2015will">(<a href="#/references" role="doc-biblioref" onclick="">1</a>)</span></li>
+<li>greater faith in research <span class="citation" data-cites="allen2019open">(<a href="#/references" role="doc-biblioref" onclick="">2</a>)</span></li>
+</ul>
+</section>
+<section id="overview-of-open-science-facets" class="slide level2" data-number="6.2">
+<h2><span class="header-section-number">6.2</span> Overview of Open Science facets</h2>
+
+<img data-src="Osc2021-unesco-open-science-no-gray.png" class="r-stretch quarto-figure-center"><p class="caption">Source: https://en.wikipedia.org/wiki/File:Osc2021-unesco-open-science-no-gray.png</p></section>
+<section id="cons-of-open-access" class="slide level2" data-number="6.3">
+<h2><span class="header-section-number">6.3</span> Cons of Open Access</h2>
+<ul>
+<li>less inclusive for the poor <span class="citation" data-cites="bahlai2019open">(<a href="#/references" role="doc-biblioref" onclick="">3</a>)</span> <span class="citation" data-cites="ross2022dynamics">(<a href="#/references" role="doc-biblioref" onclick="">4</a>)</span></li>
+<li>cultural and institutional constraints <span class="citation" data-cites="scheliga2014putting">(<a href="#/references" role="doc-biblioref" onclick="">5</a>)</span></li>
+</ul>
+</section>
+<section id="cons-of-open-data" class="slide level2" data-number="6.4">
+<h2><span class="header-section-number">6.4</span> Cons of Open Data</h2>
+<ul>
+<li>training unaffordable for the poor <span class="citation" data-cites="bezuidenhout2017beyond">(<a href="#/references" role="doc-biblioref" onclick="">6</a>)</span> <span class="citation" data-cites="ross2022dynamics">(<a href="#/references" role="doc-biblioref" onclick="">4</a>)</span></li>
+<li>sharing sensitive data is hard <span class="citation" data-cites="scheliga2014putting">(<a href="#/references" role="doc-biblioref" onclick="">5</a>)</span></li>
+<li>no sanctions (e.g.&nbsp;when embargo has been met, ‘Ineffective policy guidelines’ <span class="citation" data-cites="scheliga2014putting">(<a href="#/references" role="doc-biblioref" onclick="">5</a>)</span></li>
+<li>takes more time <span class="citation" data-cites="allen2019open">(<a href="#/references" role="doc-biblioref" onclick="">2</a>)</span> <span class="citation" data-cites="scheliga2014putting">(<a href="#/references" role="doc-biblioref" onclick="">5</a>)</span></li>
+<li>excludes/inconveniences the industry <span class="citation" data-cites="ross2022dynamics">(<a href="#/references" role="doc-biblioref" onclick="">4</a>)</span></li>
+<li>Lack of legal clarity <span class="citation" data-cites="scheliga2014putting">(<a href="#/references" role="doc-biblioref" onclick="">5</a>)</span></li>
+<li>cultural and institutional constraints <span class="citation" data-cites="scheliga2014putting">(<a href="#/references" role="doc-biblioref" onclick="">5</a>)</span></li>
+</ul>
+</section>
+<section id="cons-of-open-methods" class="slide level2" data-number="6.5">
+<h2><span class="header-section-number">6.5</span> Cons of Open Methods</h2>
+<ul>
+<li>may diminish qualitative methodologies for the sake of reproducibility <span class="citation" data-cites="ross2022dynamics">(<a href="#/references" role="doc-biblioref" onclick="">4</a>)</span></li>
+<li>Open Science does not improve statistical power <span class="citation" data-cites="banks2019answers">(<a href="#/references" role="doc-biblioref" onclick="">7</a>)</span></li>
+<li>lack of standards for sharing research materials <span class="citation" data-cites="scheliga2014putting">(<a href="#/references" role="doc-biblioref" onclick="">5</a>)</span></li>
+<li>takes more time <span class="citation" data-cites="allen2019open">(<a href="#/references" role="doc-biblioref" onclick="">2</a>)</span> <span class="citation" data-cites="scheliga2014putting">(<a href="#/references" role="doc-biblioref" onclick="">5</a>)</span></li>
+<li>cultural and institutional constraints <span class="citation" data-cites="scheliga2014putting">(<a href="#/references" role="doc-biblioref" onclick="">5</a>)</span></li>
+<li>are ‘how’, not ‘what to’ study <span class="citation" data-cites="banks2019answers">(<a href="#/references" role="doc-biblioref" onclick="">7</a>)</span></li>
+<li>may be infeasible, e.g.&nbsp;preregistrations <span class="citation" data-cites="banks2019answers">(<a href="#/references" role="doc-biblioref" onclick="">7</a>)</span></li>
+</ul>
+</section>
+<section id="cons-of-open-source-software" class="slide level2" data-number="6.6">
+<h2><span class="header-section-number">6.6</span> Cons of Open Source Software</h2>
+<ul>
+<li>Reluctance to share code <span class="citation" data-cites="scheliga2014putting">(<a href="#/references" role="doc-biblioref" onclick="">5</a>)</span></li>
+<li>cultural and institutional constraints <span class="citation" data-cites="scheliga2014putting">(<a href="#/references" role="doc-biblioref" onclick="">5</a>)</span></li>
+</ul>
+</section>
+<section id="cons-of-open-evaluation" class="slide level2" data-number="6.7">
+<h2><span class="header-section-number">6.7</span> Cons of Open Evaluation</h2>
+<ul>
+<li>Open Peer Review: may give bias and exclusion <span class="citation" data-cites="ross2022dynamics">(<a href="#/references" role="doc-biblioref" onclick="">4</a>)</span></li>
+<li>No stimulus to publish negative results <span class="citation" data-cites="scheliga2014putting">(<a href="#/references" role="doc-biblioref" onclick="">5</a>)</span></li>
+<li>Competition discourages openness (‘Evaluation criteria impede openness’, <span class="citation" data-cites="scheliga2014putting">(<a href="#/references" role="doc-biblioref" onclick="">5</a>)</span>)</li>
+<li>law of unintended consequences may lead to perverse incentives <span class="citation" data-cites="banks2019answers">(<a href="#/references" role="doc-biblioref" onclick="">7</a>)</span></li>
+<li>researcher is put in a social dilemma: <span class="citation" data-cites="scheliga2014putting">(<a href="#/references" role="doc-biblioref" onclick="">5</a>)</span></li>
+</ul>
+</section>
+<section id="cons-of-open-infrastructure" class="slide level2" data-number="6.8">
+<h2><span class="header-section-number">6.8</span> Cons of Open Infrastructure</h2>
+<ul>
+<li>not in place yet <span class="citation" data-cites="banks2019answers">(<a href="#/references" role="doc-biblioref" onclick="">7</a>)</span> <span class="citation" data-cites="scheliga2014putting">(<a href="#/references" role="doc-biblioref" onclick="">5</a>)</span></li>
+<li>financial aspects of openness <span class="citation" data-cites="scheliga2014putting">(<a href="#/references" role="doc-biblioref" onclick="">5</a>)</span></li>
+</ul>
+</section></section>
+<section>
+<section id="the-community" class="title-slide slide level1 center" data-number="7">
+<h1><span class="header-section-number">7</span> The community</h1>
+
+</section>
+<section id="it-takes-time-to-setup-an-infrastructure" class="slide level2" data-number="7.1">
+<h2><span class="header-section-number">7.1</span> It takes time to setup an infrastructure</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="20230609_barbro.jpg"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="FAIR_data_principles.jpg"></p>
+<figcaption>https://en.wikipedia.org/wiki/File:FAIR_data_principles.jpg</figcaption>
+</figure>
+</div>
+</div><div class="column" style="width:50%;">
+<p>Developing how to make data FAIR. Sometimes, the machines come to the researches, but sometimes they need to visit the facility</p>
+<p>Resulted in <span class="citation" data-cites="larsson2023fair">(<a href="#/references" role="doc-biblioref" onclick="">8</a>)</span>. See also <span class="citation" data-cites="banks2019answers">(<a href="#/references" role="doc-biblioref" onclick="">7</a>)</span> <span class="citation" data-cites="scheliga2014putting">(<a href="#/references" role="doc-biblioref" onclick="">5</a>)</span>.</p>
+</div>
+</div>
+</section>
+<section id="open-may-be-unfair-to-companies" class="slide level2" data-number="7.2">
+<h2><span class="header-section-number">7.2</span> Open may be unfair to companies</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="20230908_martin.png"></p>
+</div><div class="column" style="width:50%;">
+<p>A company can be built around a non-sharable resource. It would be unfair to share that resource.</p>
+<p>See also <span class="citation" data-cites="ross2022dynamics">(<a href="#/references" role="doc-biblioref" onclick="">4</a>)</span></p>
+</div>
+</div>
+</section>
+<section id="open-source-alleviates-constraints" class="slide level2" data-number="7.3">
+<h2><span class="header-section-number">7.3</span> Open source alleviates constraints</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="20240209_douglas.jpg"></p>
+</div><div class="column" style="width:50%;">
+<p>Openly develop useful software and avoiding bureaucracy helps your software getting used</p>
+<p>See also <span class="citation" data-cites="scheliga2014putting">(<a href="#/references" role="doc-biblioref" onclick="">5</a>)</span> on cultural and institutional constraints.</p>
+</div>
+</div>
+</section>
+<section id="open-science-in-qualitative-research-is-different" class="slide level2" data-number="7.4">
+<h2><span class="header-section-number">7.4</span> Open science in qualitative research is different</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="20231208_anna.jpg"></p>
+</div><div class="column" style="width:50%;">
+<p>Replication does not make sense for qualitative papers, (e.g.&nbsp;‘What is democracy?’), so those fields need to be judged differently.</p>
+</div>
+</div>
+</section>
+<section id="citizen-science-can-help-find-individual-effects" class="slide level2" data-number="7.5">
+<h2><span class="header-section-number">7.5</span> Citizen science can help find individual effects</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="20231020_ismail.jpg"></p>
+</div><div class="column" style="width:50%;">
+<p>Achieving statistical power ignores the individual</p>
+</div>
+</div>
+</section>
+<section id="preregistration-with-statistical-power-12" class="slide level2" data-number="7.6">
+<h2><span class="header-section-number">7.6</span> Preregistration with statistical power 1/2</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="20231110_adam.jpg"></p>
+</div><div class="column" style="width:50%;">
+<p>One can do a specification curve analysis in a pre-registered study to keep statistical power</p>
+</div>
+</div>
+</section>
+<section id="preregistration-with-statistical-power-22-simonsohn2020specification" class="slide level2" data-number="7.7">
+<h2><span class="header-section-number">7.7</span> Preregistration with statistical power 2/2 <span class="citation" data-cites="simonsohn2020specification">(<a href="#/references" role="doc-biblioref" onclick="">9</a>)</span></h2>
+
+<img data-src="simonsohn_et_al_2020_fig_2_modified_higher_better_legend.png" class="r-stretch"></section>
+<section id="science-is-more-complex-14" class="slide level2" data-number="7.8">
+<h2><span class="header-section-number">7.8</span> Science is more complex 1/4</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="gustav_nilsonne.jpg"></p>
+</div><div class="column" style="width:50%;">
+<p>Even if data is open, different teams can draw opposite conclusions with high confidence <span class="citation" data-cites="botvinik2020variability">(<a href="#/references" role="doc-biblioref" onclick="">10</a>)</span></p>
+</div>
+</div>
+</section>
+<section id="science-is-more-complex-24-botvinik2020variability" class="slide level2" data-number="7.9">
+<h2><span class="header-section-number">7.9</span> Science is more complex 2/4 <span class="citation" data-cites="botvinik2020variability">(<a href="#/references" role="doc-biblioref" onclick="">10</a>)</span></h2>
+
+<img data-src="botvik-nezer_et_al_2020_fig_2.png" class="r-stretch"><p>Hypotheses: ‘There is [an effect] in [a brain area] between treatment A and B’</p>
+</section>
+<section id="science-is-more-complex-34-botvinik2020variability" class="slide level2" data-number="7.10">
+<h2><span class="header-section-number">7.10</span> Science is more complex 3/4 <span class="citation" data-cites="botvinik2020variability">(<a href="#/references" role="doc-biblioref" onclick="">10</a>)</span></h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="botvin-nezer_et_al_2020_top_half.png"></p>
+</div><div class="column" style="width:50%;">
+<p><img data-src="botvin-nezer_et_al_2020_bottom_half.png"></p>
+</div>
+</div>
+</section>
+<section id="science-is-more-complex-44-botvinik2020variability" class="slide level2" data-number="7.11">
+<h2><span class="header-section-number">7.11</span> Science is more complex 4/4 <span class="citation" data-cites="botvinik2020variability">(<a href="#/references" role="doc-biblioref" onclick="">10</a>)</span></h2>
+
+<img data-src="botvin-nezer_et_al_2020_some_rows.png" class="r-stretch"></section>
+<section id="bias-for-preregistration" class="slide level2" data-number="7.12">
+<h2><span class="header-section-number">7.12</span> Bias for preregistration</h2>
+<ul>
+<li>My bias: likelier to believe preregistrations</li>
+<li>‘If not open, I do not believe you’</li>
+</ul>
+</section>
+<section id="cultural-limits-open-infrastructure-14" class="slide level2" data-number="7.13">
+<h2><span class="header-section-number">7.13</span> Cultural limits Open infrastructure 1/4</h2>
+<p>My worry: cultural constraints limit (well-willing!) development of Open infrastructure</p>
+</section>
+<section id="cultural-limits-open-infrastructure-24" class="slide level2" data-number="7.14">
+<h2><span class="header-section-number">7.14</span> Cultural limits Open infrastructure 2/4</h2>
+<p>What a scientist needs to do (example from <a href="https://www.scilifelab.se/data/repository/submission/" class="uri">https://www.scilifelab.se/data/repository/submission/</a>):</p>
+<ol type="1">
+<li>Read Submission Guidelines</li>
+<li>Submit (many steps)</li>
+<li>Wait for a human to review</li>
+</ol>
+</section>
+<section id="cultural-limits-open-infrastructure-34" class="slide level2" data-number="7.15">
+<h2><span class="header-section-number">7.15</span> Cultural limits Open infrastructure 3/4</h2>
+<p>What a scientists wants:</p>
+<ol type="1">
+<li>dump the data in 5 minutes</li>
+<li>get direct automated review that can be ignored</li>
+<li>be contacted later</li>
+<li>data steward does most of the work</li>
+</ol>
+<p>See also <span class="citation" data-cites="bowman2023open">(<a href="#/references" role="doc-biblioref" onclick="">11</a>)</span></p>
+</section>
+<section id="cultural-limits-open-infrastructure-44" class="slide level2" data-number="7.16">
+<h2><span class="header-section-number">7.16</span> Cultural limits Open infrastructure 4/4</h2>
+<p>My recommendation table:</p>
+<table>
+<thead>
+<tr class="header">
+<th>How to publish data</th>
+<th>Dislike admin</th>
+<th>Hate admin</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Neutral about Open Science</td>
+<td>Don’t</td>
+<td>Don’t</td>
+</tr>
+<tr class="even">
+<td>Like Open Science</td>
+<td>Infrastructure</td>
+<td>Don’t</td>
+</tr>
+<tr class="odd">
+<td>Love Open Science</td>
+<td>Infrastructure</td>
+<td>Infrastructure</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="next-osu-talk" class="slide level2" data-number="7.17">
+<h2><span class="header-section-number">7.17</span> Next OSU talk</h2>
+
+<img data-src="20240315_osu.jpg" class="r-stretch"></section>
+<section id="lemma-1" class="slide level2" data-number="7.18">
+<h2><span class="header-section-number">7.18</span> Lemma 1</h2>
+<ul>
+<li><p>Lemma 1:</p>
+<ul>
+<li>Proper science takes more time than sloppy science</li>
+<li>Open Science forces proper science</li>
+<li>Hence Open Sciences takes as much or more time</li>
+</ul></li>
+<li><p>Lemma 2:</p>
+<ul>
+<li>A goal of science is to uncover knowledge/facts/laws</li>
+<li>Knowledge/facts/laws are reproducible</li>
+<li>Science is as good as it is reproducible</li>
+</ul></li>
+<li><p>Lemma 3:</p>
+<ul>
+<li>Assume a sloppy scientist that starts doing Open Science, who takes twice as long per paper</li>
+<li>Reproducibility of that paper goes up a factor of twenty [paper]</li>
+<li>The scientist is 10x a better scientists</li>
+</ul></li>
+</ul>
+</section></section>
+<section id="swedish-national-open-science-guidelines" class="title-slide slide level1 center" data-number="8">
+<h1><span class="header-section-number">8</span> Swedish national Open Science guidelines</h1>
+<ol type="1">
+<li>Open access to scientific publications</li>
+<li>Open access to research data</li>
+<li>Open research methods</li>
+<li>Open learning resources</li>
+<li>Public participation in the research process</li>
+<li>Infrastructures that support open science</li>
+</ol>
+</section>
+
+<section id="pros-and-cons" class="title-slide slide level1 center" data-number="9">
+<h1><span class="header-section-number">9</span> Pros and cons</h1>
+<ul>
+<li>More reproducible science</li>
+<li>More transparent science</li>
+</ul>
+</section>
+
+<section id="references" class="title-slide slide level1 smaller scrollable" data-number="10">
+<h1><span class="header-section-number">10</span> References</h1>
 <div class="footer footer-default">
 
+</div>
+<div id="refs" class="references csl-bib-body" role="list">
+<div id="ref-watson2015will" class="csl-entry" role="listitem">
+<div class="csl-left-margin">1. </div><div class="csl-right-inline">Watson M. When will ‘open science’become simply <span>“science”</span>? Genome biology. 2015;16(1):1–3. </div>
+</div>
+<div id="ref-allen2019open" class="csl-entry" role="listitem">
+<div class="csl-left-margin">2. </div><div class="csl-right-inline">Allen C, Mehler DM. Open science challenges, benefits and tips in early career and beyond. PLoS biology. 2019;17(5):e3000246. </div>
+</div>
+<div id="ref-bahlai2019open" class="csl-entry" role="listitem">
+<div class="csl-left-margin">3. </div><div class="csl-right-inline">Bahlai C, Bartlett LJ, Burgio KR, Fournier AM, Keiser CN, Poisot T, et al. Open science isn’t always open to all scientists. American Scientist. 2019;107(2):78–82. </div>
+</div>
+<div id="ref-ross2022dynamics" class="csl-entry" role="listitem">
+<div class="csl-left-margin">4. </div><div class="csl-right-inline">Ross-Hellauer T, Reichmann S, Cole NL, Fessl A, Klebel T, Pontika N. Dynamics of cumulative advantage and threats to equity in open science: A scoping review. Royal Society Open Science. 2022;9(1):211032. </div>
+</div>
+<div id="ref-scheliga2014putting" class="csl-entry" role="listitem">
+<div class="csl-left-margin">5. </div><div class="csl-right-inline">Scheliga K, Friesike S. Putting open science into practice: A social dilemma? First Monday. 2014; </div>
+</div>
+<div id="ref-bezuidenhout2017beyond" class="csl-entry" role="listitem">
+<div class="csl-left-margin">6. </div><div class="csl-right-inline">Bezuidenhout LM, Leonelli S, Kelly AH, Rappert B. Beyond the digital divide: Towards a situated approach to open data. Science and Public Policy. 2017;44(4):464–75. </div>
+</div>
+<div id="ref-banks2019answers" class="csl-entry" role="listitem">
+<div class="csl-left-margin">7. </div><div class="csl-right-inline">Banks GC, Field JG, Oswald FL, O’Boyle EH, Landis RS, Rupp DE, et al. Answers to 18 questions about open science practices. Journal of Business and Psychology. 2019;34:257–70. </div>
+</div>
+<div id="ref-larsson2023fair" class="csl-entry" role="listitem">
+<div class="csl-left-margin">8. </div><div class="csl-right-inline">Larsson ÅM, Bornsäter B. FAIR data f<span>ö</span>r heritage science: Utvecklad praktik f<span>ö</span>r <span class="nocase">ö</span>ppna forskningsdata: Rapport fr<span>å</span>n ett FoU-projekt. Riksantikvarie<span>ä</span>mbetet; 2023. </div>
+</div>
+<div id="ref-simonsohn2020specification" class="csl-entry" role="listitem">
+<div class="csl-left-margin">9. </div><div class="csl-right-inline">Simonsohn U, Simmons JP, Nelson LD. Specification curve analysis. Nature Human Behaviour. 2020;4(11):1208–14. </div>
+</div>
+<div id="ref-botvinik2020variability" class="csl-entry" role="listitem">
+<div class="csl-left-margin">10. </div><div class="csl-right-inline">Botvinik-Nezer R, Holzmeister F, Camerer CF, Dreber A, Huber J, Johannesson M, et al. Variability in the analysis of a single neuroimaging dataset by many teams. Nature. 2020;582(7810):84–8. </div>
+</div>
+<div id="ref-bowman2023open" class="csl-entry" role="listitem">
+<div class="csl-left-margin">11. </div><div class="csl-right-inline">Bowman N, Spence PR, Hahn L. Open, organized, and onerous: Understanding and recognizing the labors of open science. Journal of the Association for Communication Administration. 2023;40(1):4. </div>
+</div>
 </div>
 </section>
     </div>

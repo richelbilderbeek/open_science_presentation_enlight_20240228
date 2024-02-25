@@ -4,6 +4,7 @@ My Open Science ppresentation for ENLIGHT 2024-02-28
 
  * Formal event title: 2nd ENLIGHT RISE and Arqus Alliance Open Science Ambassador Webinar on 28 February 2024 
  * [Event homepage](https://enlight-eu.org/index.php/university-about-us/news-events/158-news/1061-2nd-enlight-rise-and-arqus-alliance-open-science-ambassador-webinar-on-28-february-2024)
+ * Duration of presentation (monologue): 30 mins
 
 ## Description
 
@@ -22,33 +23,29 @@ such as: ‘Is it worth it?’.
 In this webinar, Richèl Bilderbeek talks about some of 
 the pros and cons of Open Science and the Uppsala community.
 
-## Talk sketch
+## Talk process
 
-This is my sketch. It will change. It will be crap until done.
+```mermaid
+flowchart TD
+  subgraph step_1[Step 1: 5 hours]
+    read_literature[Read literature]
+  end
+  subgraph step_2[Step 2: 5 hours]
+    read_talks[Read talks]
+    read_literature_from_talks[Read literature from talks]
+  end
+  subgraph step_3[Step 3: 5 hours]
+    read_literature_again[Read literature again]
+  end
+  literature_section[Literature section]
+  talk_section[Talks section]
 
- * Who I am, relevant for this talk
-   * Open Science is a pleonasm
-   * Did not leave academia due to discovery of Open Science
-   * Abort a position in academia, as not allowed to do Open Science
-   * Started OSU
- * OSU is the local Uppsala community
- * Q: who lives in a town with a local community?
- * Q: who visits that local community
- * OSU: 8 visitors now, many interruptions and discussions, in public library
- * OSU next talk: discussion on National Swedish Guidelines on Open Science
- * [some points in the discussion]
- * Lemma 1:
-    * Proper science takes more time than sloppy science
-    * Open Science forces proper science
-    * Hence Open Sciences takes as much or more time
- * Lemma 2:
-    * A goal of science is to uncover knowledge/facts/laws
-    * Knowledge/facts/laws are reproducible
-    * Science is as good as it is reproducible
- * Lemma 3:
-    * Assume a sloppy scientist that starts doing Open Science,
-      who takes twice as long per paper
-    * Reproducibility of that paper goes up a factor of twenty [paper]
-    * The scientist is 10x a better scientists
-
-
+  read_literature --> literature_section
+  read_literature --> read_talks
+  read_talks --> talk_section
+  read_talks --> read_literature_from_talks
+  read_literature_from_talks --> read_literature_again
+  read_literature_from_talks --> talk_section
+  read_literature_from_talks --> literature_section
+  read_literature_again --> literature_section
+```
