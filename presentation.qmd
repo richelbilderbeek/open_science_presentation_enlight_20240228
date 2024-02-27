@@ -36,6 +36,12 @@ number-offset: -1
 :::
 :::
 
+# This talk
+
+-   Experiment 1: Cons
+-   Experiment 2: Pros
+-   Experiment 3: Community
+
 # Experiment 1
 
 -   Research question: what are the biggest drawbacks of Open Science for a researcher today?
@@ -132,7 +138,12 @@ If that percentage is worth it, is still an open question.
 
 ![](soderberg_et_al_2021_bottom.png)
 
-# The Open Science Uppsala community
+# Experiment 3
+
+-   Research question: what are the pros and cons of Open Science for a researcher today?
+-   Methods: visit meetings, select favorites
+
+## The Open Science Uppsala community
 
 -   Who lives in a town with a local community?
 -   Who has visited that local community at least once?
