@@ -1,6 +1,6 @@
 ---
-title: "The pros and cons of Open Sciece"
-author: "Richèl Bilderbeek"
+title: "Open Science: pros, cons and community"
+author: "Richèl 'Rea-shell' Bilderbeek"
 format: revealjs
 editor: visual
 from: markdown+emoji
@@ -12,29 +12,15 @@ number-sections: true
 number-offset: -1
 ---
 
+
 # This presentation
 
 <https://github.com/richelbilderbeek/open_science_presentation_enlight_20240228> ![](CC0.png)
 
-## How to pronounce my name?
-
-| Language  | Pronounciation |
-|-----------|----------------|
-| **Dutch** | 'Rie-sjel'     |
-| English   | 'Rea-shell'    |
-| French    | 'Richèl'       |
-| German    | 'Ri-shäll'     |
-| Swedish   | 'Ri-kjell'     |
-
 # Goals
 
-- To discuss Open Science
-- To share the usefulness of a community
-
-My personal goals:
-
-- Do a mini review of the literature
-- Get new ideas 
+-   To discuss Open Science
+-   To share the usefulness of a community
 
 ## What I do
 
@@ -47,37 +33,16 @@ My personal goals:
 -   1.75 postdocs
 -   support at Uppsala University
 -   founder of Open Science Uppsala
+-   <https://github.com/richelbilderbeek>
 :::
 :::
 
-## My quote
+# Experiment 1
 
-> Open Science is a pleonasm.  Richèl Bilderbeek 
+-   Research question: what are the biggest drawbacks of Open Science for a researcher today?
+-   Methods: search 5 hours, collect all results, rank these
 
-(similar to @watson2015will)
-
-## My favorite research question
-
-Is Open Science worth the extra effort?
-
-# This talk
-
-- Things I learned from the literature
-- Things I learned from the community
-- Compare these
-
-# Literature
-
-## Experiment 1
-
-- Research question: what are the biggest drawbacks of Open Science for a researcher today?
-- Methods: search 5 hours, collect all results, rank these
-
-### Results: irrelevant
-
-No idea what to think of this:
-
--   Open Science *may* be neoliberal @uygun2023open
+## Results: least relevant
 
 Feature:
 
@@ -88,39 +53,37 @@ Dispelling myths:
 -   Open Science does not improve statistical power @banks2019answers
 -   Open Infrastructure costs money too @scheliga2014putting
 
-### Results: things that may be
+No idea what to think of this:
+
+-   Open Science *may* be neoliberal @uygun2023open
+
+## Results: maybe relevant
 
 -   Open Access *may be* less inclusive for the poor @bahlai2019open @ross2022dynamics
--   There *may be* impactful cultural and institutional constraints on
-    all facets of Open Science @scheliga2014putting
+-   There *may be* impactful cultural and institutional constraints on all facets of Open Science @scheliga2014putting
 -   Training to do proper Open Data *may be* unaffordable for the poor @bezuidenhout2017beyond @ross2022dynamics
--   Open Methods  *may* diminish qualitative methodologies for the sake of reproducibility @ross2022dynamics
+-   Open Methods *may* diminish qualitative methodologies for the sake of reproducibility @ross2022dynamics
 -   Open Software *may be* hindered by reluctance to share code @scheliga2014putting
 -   Open Peer Review *may* give bias and exclusion @ross2022dynamics
 -   Open Evaluation *may* lead to perverse incentives @banks2019answers
--   Competition between scientists *may* discourage openness @scheliga2014putting, 
-    researcher *may* be put in a social dilemma: @scheliga2014putting
-
-### Results: things that are and are improving
-
--   Open Data has no clear legal guidelines, nor sanctions (e.g. when embargo has been met) @scheliga2014putting
+-   Competition between scientists *may* discourage openness @scheliga2014putting, researcher *may* be put in a social dilemma: @scheliga2014putting
 -   Open Evaluation does not encourage to publish negative results @scheliga2014putting
+
+## Results: most relevant
+
+-   Open Methods takes more time @allen2019open @scheliga2014putting
+-   Open Data (a.o. FAIRification) takes more time @allen2019open @scheliga2014putting, especially sharing sensitive data is more complex, @scheliga2014putting
+-   Open Data excludes/inconveniences the industry @ross2022dynamics
+-   Open Data has no clear legal guidelines, nor sanctions @scheliga2014putting
 -   Lack of standards for sharing research materials @scheliga2014putting
 -   Open Infrastructure is not in place yet @banks2019answers @scheliga2014putting
 
-### Results: things that are and are hard to solve
+# Experiment 2
 
--   Open Data (a.o. FAIRification) takes more time @allen2019open @scheliga2014putting,
-    especially sharing sensitive data is more complex,  @scheliga2014putting
--   Open Methods takes more time @allen2019open @scheliga2014putting
--   Open Data excludes/inconveniences the industry @ross2022dynamics
+-   Research question: what are my favorite papers on Open Science that I know?
+-   Methods: copy-paste these from earlier discussions
 
-## Experiment 2
-
-- Research question: what are my favorite papers on Open Science that I know?
-- Methods: copy-paste these from earlier discussions
-
-### Result: regular science is a problem @munafo2017manifesto
+## Result: regular science is a problem @munafo2017manifesto
 
 ::: columns
 ::: {.column width="85%"}
@@ -132,20 +95,20 @@ Dispelling myths:
 :::
 :::
 
-### Result: Open Science reduces publication bias @allen2019open
+## Result: Open Science reduces publication bias @allen2019open
 
 ::: columns
-::: {.column width="40%"}
+::: {.column width="35%"}
 ![](allen_and_mehler_2019_modified.png)
 :::
 
-::: {.column width="60%"}
+::: {.column width="65%"}
 -   The file drawer problem
 -   Registered reports: publish part of paper before collecting data
 :::
 :::
 
-### Result: Open Science results in better papers 1/3 @soderberg2021initial
+## Result: Open Science results in better papers 1/3 @soderberg2021initial
 
 ![](soderberg_et_al_2021_top.png)
 
@@ -162,27 +125,18 @@ From that one can conclude that registered reports have an 18% higher method qua
 If that percentage is worth it, is still an open question.
 -->
 ```
-### Result: Open Science results in better papers 2/3 @soderberg2021initial
+## Result: Open Science results in better papers 2/3 @soderberg2021initial
 
 ![](soderberg_et_al_2021_middle.png)
 
-### Result: Open Science results in better papers 3/3 @soderberg2021initial
+## Result: Open Science results in better papers 3/3 @soderberg2021initial
 
 ![](soderberg_et_al_2021_bottom.png)
 
 # The Open Science Uppsala community
 
-## Question 1
-
-Who lives in a town with a local community?
-
-## Question 2
-
-Who has visited that local community at least once?
-
-## My statement
-
-`literature + community > literature + more_literature`
+- Who lives in a town with a local community?
+- Who has visited that local community at least once?
 
 ## Open Science Uppsala goals
 
@@ -207,17 +161,19 @@ Who has visited that local community at least once?
 :::
 :::
 
+## My statement
+
+`literature + community > literature + more_literature`
+
 ## It takes time to setup an infrastructure
 
 ::: columns
-::: {.column width="50%"}
+::: {.column width="60%"}
 ![](20230609_barbro.jpg)
-
-![https://en.wikipedia.org/wiki/File:FAIR_data_principles.jpg](FAIR_data_principles.jpg)
 :::
 
-::: {.column width="50%"}
-Developing how to make data FAIR. Sometimes, the machines come to the researches, but sometimes they need to visit the facility
+::: {.column width="40%"}
+Developing how to make data FAIR. Sometimes, the machines come to the researches, but sometimes they need to visit the facility.
 
 Resulted in @larsson2023fair. See also @banks2019answers @scheliga2014putting.
 :::
@@ -245,7 +201,7 @@ See also @ross2022dynamics
 :::
 
 ::: {.column width="35%"}
-Openly develop useful software and avoiding bureaucracy helps your software getting used
+Openly develop useful software and avoiding bureaucracy helps your software getting used.
 
 See also @scheliga2014putting on cultural and institutional constraints.
 :::
@@ -331,10 +287,9 @@ Hypotheses: 'There is \[an effect\] in \[a brain area\] between treatment A and 
 
 And we are confident! Compare hypothesis 2 for team 2 and 4!
 
-
 # Another community
 
-## Lack of institutional support
+## ENLIGHT RISE and Arqus Alliance Ambassador
 
 ::: columns
 ::: {.column width="80%"}
@@ -342,29 +297,57 @@ And we are confident! Compare hypothesis 2 for team 2 and 4!
 :::
 
 ::: {.column width="20%"}
-Previous ENLIGHT webinar! 602 researchers. <https://zenodo.org/records/10528857>
+Previous webinar! 602 researchers. <https://zenodo.org/records/10528857>
 :::
 :::
 
-## How to support
-
-![](poll_enlight_how_support.png)
-
-# Discussion
+# Conclusion
 
 -   I hope to have convinced you that ...
 
 `literature + community > literature + more_literature`
 
 -   ... is true, because people have broader ideas than you search the literature for
--   ENLIGHT is a community too!
--   Please help me/us with more references to the literature!
+-   This is a community too!
 
 # Questions?
 
 <https://github.com/richelbilderbeek/open_science_presentation_enlight_20240228> ![](CC0.png)
 
 ## Appendix
+
+## How to pronounce my name?
+
+| Language  | Pronounciation |
+|-----------|----------------|
+| **Dutch** | 'Rie-sjel'     |
+| English   | 'Rea-shell'    |
+| French    | 'Richèl'       |
+| German    | 'Ri-shäll'     |
+| Swedish   | 'Ri-kjell'     |
+
+## What I think
+
+My quote (similar to @watson2015will):
+
+```{verbatim}
+Open Science is a pleonasm. 
+```
+
+My favorite research question:
+
+```{verbatim}
+When is Open Science worth the extra effort?
+```
+
+My prediction:
+
+```{verbatim}
+If doing Open Science would take less time 
+than regular science,
+it would quickly become the norm. 
+This is possible.
+```
 
 # Open Science terminology
 
@@ -404,33 +387,47 @@ Previous ENLIGHT webinar! 602 researchers. <https://zenodo.org/records/10528857>
 :::
 :::
 
+## Literature: con
 
-## Bias for preregistration
+
+## Experiment for bias for preregistration
 
 > Good science means never needing to say 'trust me'. Simine Vazire
 
 -   My bias: likelier to believe open science papers, especially preregistrations
 -   Please ask me to participate in your experiment with hypothesis 'Mock papers labeled as preregistrations pass peer review more often'!
 
-## Cultural limits Open infrastructure 1/4
+# My synthesis
 
-My worry:
+-   rooted in my experience
+-   may be provocative
+-   to be discussed
 
--   Cultural constraints limit (well-willing!) development of Open infrastructure
--   Procedure-first, instead of scientists-first
--   Please ask me to participate in your experiment with title 'The relation between administrative load and open data published over multiple countries'
+## My synthesis: statement
 
-## Cultural limits Open infrastructure 2/4
+Although Open Infrastructure development is paved with good intentions, cultural and institutional constraints in Sweden discourages Open Science even more.
+
+Instead, we need to go from procedure-first to researcher-first.
+
+## My synthesis: assumptions
+
+-   We know Open Science costs more time @allen2019open @scheliga2014putting
+-   There may be relevant cultural and institutional constraints @scheliga2014putting
+-   For those that do Open Science, infrastructure is the biggest problem (ENLIGHT poll)
+
+## My synthesis: evidence
 
 What a Swedish life-science scientist needs to do (example from <https://www.scilifelab.se/data/repository/submission/>):
 
 1.  Read Submission Guidelines
 2.  Submit (many steps)
-3.  Wait for a human to review
+3.  Wait for a human to review, may take days
 
-See also @bowman2023open <!--  They avoid the discussion how science admin should be organized -->
+I call this 'procedure-first'.
 
-## Cultural limits Open infrastructure 3/4
+See (especially) @charlton2010cancer and @bowman2023open <!--  They avoid the discussion how science admin should be organized -->
+
+## My synthesis: solution
 
 What I want:
 
@@ -438,6 +435,9 @@ What I want:
 2.  get direct automated review that can be ignored
 3.  be contacted later
 4.  data steward does most of the work
+5.  when improving the data, get direct automated review that can be ignored
+
+I call this 'researcher-first'. This ruthless approach should make Open Science take *less* time than regular science
 
 ## Cultural limits Open infrastructure 4/4
 
@@ -450,5 +450,16 @@ My recommendation table in Sweden today:
 | Like           | Less than dislike           | Yes                |
 | Less than like | \-                          | No                 |
 
+## How to support
+
+![](poll_enlight_how_support.png)
+
+# Discussion
+
+-   Why do you think 'Open Science is a pleonasm' is invalid/valid?
+-   When do you think Open Science is worth the extra effort?
+-   I claim 'If doing Open Science would take less time than regular science, it would quickly become the norm'
+    - Why do you agree/disagree?
+    - Why do you think this is possible yes/no?
 
 # References
