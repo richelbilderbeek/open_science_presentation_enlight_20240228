@@ -38,11 +38,11 @@ number-offset: -1
 
 # This talk
 
--   Experiment 1: Cons
--   Experiment 2: Pros
--   Experiment 3: Community
+-   Experiment 1: Cons: `more_literature`
+-   Experiment 2: Pros: `literature`
+-   Experiment 3: Community: `community`
 
-# Experiment 1
+# Experiment 1: `more_literature`
 
 -   Research question: what are the biggest drawbacks of Open Science for a researcher today?
 -   Methods: search 5 hours, collect all results, rank these
@@ -173,7 +173,13 @@ If that percentage is worth it, is still an open question.
 
 ## My statement
 
-`literature + community > literature + more_literature`
+```
+literature + community
+
+           >
+           
+literature + more_literature
+```
 
 ## It takes time to setup an infrastructure
 
@@ -315,7 +321,13 @@ Previous webinar! 602 researchers. <https://zenodo.org/records/10528857>
 
 -   I hope to have convinced you that ...
 
-`literature + community > literature + more_literature`
+```
+literature + community
+
+           >
+           
+literature + more_literature
+```
 
 -   ... is true, because people have broader ideas than you search the literature for
 -   This is a community too!
