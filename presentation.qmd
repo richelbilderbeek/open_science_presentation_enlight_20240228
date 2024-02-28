@@ -76,17 +76,18 @@ No idea what to think of this:
 
 ## Results: most relevant
 
--   Open Methods takes more time @allen2019open @scheliga2014putting
--   Open Data (a.o. FAIRification) takes more time @allen2019open @scheliga2014putting, especially sharing sensitive data is more complex @scheliga2014putting
--   Open Data excludes/inconveniences the industry @ross2022dynamics
--   Open Data has no clear legal guidelines, nor sanctions @scheliga2014putting
--   Lack of standards for sharing research materials @scheliga2014putting
--   Open Infrastructure is not in place yet @banks2019answers @scheliga2014putting
+-   :nerd_face: Open Data excludes/inconveniences the industry @ross2022dynamics
+-   :nerd_face: Lack of standards for sharing research materials @scheliga2014putting
+-   :nerd_face: Open Infrastructure is not in place yet @banks2019answers @scheliga2014putting
+-   :nerd_face: Open Data (a.o. FAIRification) takes more time @allen2019open @scheliga2014putting
+-   :thinking: ... especially sharing sensitive data is more complex @scheliga2014putting
+-   :thinking: Open Methods takes more time @allen2019open @scheliga2014putting
+-   :thinking: Open Data has no clear legal guidelines, nor sanctions @scheliga2014putting
 
 # Experiment 2: `literature`
 
 -   Research question: what are my favorite papers on Open Science that I know?
--   Methods: copy-paste these from earlier discussions
+-   Methods: copy-paste these from earlier presentations with literature searches
 
 ## Result: regular science is a problem @munafo2017manifesto
 
