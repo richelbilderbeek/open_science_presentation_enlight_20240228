@@ -190,10 +190,10 @@ literature + more_literature
 :::
 
 ::: {.column width="40%"}
-Developing how to make data FAIR. Sometimes, the machines come to the researchers, 
-but sometimes the researchers need to visit the facility.
+Developing how to make data FAIR. Sometimes, the machines come to the researchers, but sometimes the researchers need to visit the facility.
 
-Resulted in @larsson2023fair. See also @banks2019answers @scheliga2014putting.
+Resulted in @larsson2023fair. 
+:nerd_face: @banks2019answers @scheliga2014putting.
 :::
 :::
 
@@ -207,7 +207,8 @@ Resulted in @larsson2023fair. See also @banks2019answers @scheliga2014putting.
 ::: {.column width="25%"}
 A company can be built around a non-sharable resource. It would be unfair to share that resource.
 
-See also @ross2022dynamics
+:nerd_face: @ross2022dynamics
+
 :::
 :::
 
@@ -221,7 +222,7 @@ See also @ross2022dynamics
 ::: {.column width="35%"}
 Openly develop useful software and avoiding bureaucracy helps your software getting used.
 
-See also @scheliga2014putting on cultural and institutional constraints.
+:nerd_face: see @scheliga2014putting on cultural and institutional constraints.
 :::
 :::
 
@@ -235,7 +236,7 @@ See also @scheliga2014putting on cultural and institutional constraints.
 ::: {.column width="25%"}
 Replication does not make sense for qualitative papers, (e.g. 'What is democracy?'), so those fields need to be judged differently.
 
-See also @banks2019answers.
+:nerd_face: @banks2019answers
 :::
 :::
 
@@ -248,6 +249,8 @@ See also @banks2019answers.
 
 ::: {.column width="25%"}
 Achieving statistical power ignores the individual. Citizen science helps find strong effects in few individuals.
+
+:thinking:
 :::
 :::
 
@@ -260,6 +263,8 @@ Achieving statistical power ignores the individual. Citizen science helps find s
 
 ::: {.column width="25%"}
 One can do a specification curve analysis in a pre-registered study to keep statistical power
+
+:thinking:
 :::
 :::
 
@@ -271,8 +276,8 @@ One can do a specification curve analysis in a pre-registered study to keep stat
 :::
 
 ::: {.column width="40%"}
-- Data: Hurricane name, amount of deaths, year, wind speed, pressure
-- Hypothesis: the name of a hurricane is a predictor of the amount of deaths
+-   Data: Hurricane name, amount of deaths, year, wind speed, pressure
+-   Hypothesis: the name of a hurricane is a predictor of the amount of deaths
 :::
 :::
 
@@ -291,6 +296,8 @@ One can do a specification curve analysis in a pre-registered study to keep stat
 -   Gustav Nilsonne
 -   Even if data is open, different teams can draw opposite conclusions with high confidence @botvinik2020variability
 -   This makes interpreting results even harder!
+
+:thinking:
 :::
 :::
 
@@ -320,17 +327,9 @@ And we are confident! Compare hypothesis 2 for team 2 and 4!
 
 # Another community
 
-## ENLIGHT RISE and Arqus Alliance Ambassador
+## This community
 
-::: columns
-::: {.column width="80%"}
-![](poll_enlight_obstacles_modified.png)
-:::
-
-::: {.column width="20%"}
-Previous webinar! 602 researchers. <https://zenodo.org/records/10528857>
-:::
-:::
+![Source: https://zenodo.org/records/10528857](poll_enlight_obstacles_modified_again_with_annotation.png)
 
 # Conclusion
 
