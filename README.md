@@ -1,10 +1,10 @@
 # open_science_presentation_enlight_20240228
 
-My Open Science ppresentation for ENLIGHT 2024-02-28
+My Open Science presentation for ENLIGHT 2024-02-28
 
- * Formal event title: 2nd ENLIGHT RISE and Arqus Alliance Open Science Ambassador Webinar on 28 February 2024 
+ * Formal event title: second ENLIGHT RISE and Arqus Alliance Open Science Ambassador Webinar on 28 February 2024 
  * [Event homepage](https://enlight-eu.org/index.php/university-about-us/news-events/158-news/1061-2nd-enlight-rise-and-arqus-alliance-open-science-ambassador-webinar-on-28-february-2024)
- * Duration of presentation (monologue): 30 mins
+ * Duration of presentation (monologue): 30 minutes
  * YouTube video: [here](https://youtu.be/_RgoN9eGAgI?si=oJRAMbl2v36oipVX)
 
 ## Description
