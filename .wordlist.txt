@@ -12,3 +12,5 @@ mlc
 txt
 wordlist
 yml
+pdf
+qmd
