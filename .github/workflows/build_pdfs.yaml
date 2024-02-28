@@ -26,7 +26,7 @@ jobs:
       # The idea is to put the PDFs created by GHA (i.e. this script)
       # there manually
       - name: Delete old PDFs
-        run: rm $(find . | egrep "pdf$")
+        run: rm -f $(find . | egrep "pdf$")
 
       - uses: quarto-dev/quarto-actions/render@v2
         with:
