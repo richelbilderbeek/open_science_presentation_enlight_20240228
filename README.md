@@ -7,7 +7,7 @@ My Open Science presentation of 2024-02-28
  * Duration of presentation (monologue): 30 minutes
  * Presentation as Quarto markdown: [presentation.qmd](presentation.qmd)
  * Presentation as PDF: [presentation.pdf](presentation.pdf). Latest version is also uploaded by the [build_pdfs](https://github.com/richelbilderbeek/open_science_presentation_enlight_arcus_20240228/actions/workflows/build_pdfs.yaml) continuous integration script
- * YouTube video: [here](https://youtu.be/_RgoN9eGAgI?si=oJRAMbl2v36oipVX)
+ * YouTube video: [here](https://youtu.be/zHpiz2P4h-U)
 
 ## Description
 
