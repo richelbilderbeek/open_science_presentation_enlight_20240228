@@ -6,3 +6,9 @@ Arqus
 ENLIGHT
 enlight
 Bilderbeek
+config
+json
+mlc
+txt
+wordlist
+yml
