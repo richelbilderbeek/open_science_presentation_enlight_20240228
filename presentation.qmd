@@ -77,13 +77,13 @@ No idea what to think of this:
 ## Results: most relevant
 
 -   Open Methods takes more time @allen2019open @scheliga2014putting
--   Open Data (a.o. FAIRification) takes more time @allen2019open @scheliga2014putting, especially sharing sensitive data is more complex, @scheliga2014putting
+-   Open Data (a.o. FAIRification) takes more time @allen2019open @scheliga2014putting, especially sharing sensitive data is more complex @scheliga2014putting
 -   Open Data excludes/inconveniences the industry @ross2022dynamics
 -   Open Data has no clear legal guidelines, nor sanctions @scheliga2014putting
 -   Lack of standards for sharing research materials @scheliga2014putting
 -   Open Infrastructure is not in place yet @banks2019answers @scheliga2014putting
 
-# Experiment 2
+# Experiment 2: `literature`
 
 -   Research question: what are my favorite papers on Open Science that I know?
 -   Methods: copy-paste these from earlier discussions
@@ -100,7 +100,7 @@ No idea what to think of this:
 :::
 :::
 
-## Result: Open Science reduces publication bias @allen2019open
+## Result: Open Science helps honest reporting @allen2019open
 
 ::: columns
 ::: {.column width="35%"}
@@ -108,8 +108,8 @@ No idea what to think of this:
 :::
 
 ::: {.column width="65%"}
--   The file drawer problem
--   Registered reports: publish part of paper before collecting data
+-   the file drawer problem
+-   'being held hostage by your data'
 :::
 :::
 
@@ -138,7 +138,7 @@ If that percentage is worth it, is still an open question.
 
 ![](soderberg_et_al_2021_bottom.png)
 
-# Experiment 3
+# Experiment 3: `community`
 
 -   Research question: what are the pros and cons of Open Science for a researcher today?
 -   Methods: visit meetings, select favorites
@@ -173,7 +173,7 @@ If that percentage is worth it, is still an open question.
 
 ## My statement
 
-```
+```         
 literature + community
 
            >
@@ -189,7 +189,8 @@ literature + more_literature
 :::
 
 ::: {.column width="40%"}
-Developing how to make data FAIR. Sometimes, the machines come to the researches, but sometimes they need to visit the facility.
+Developing how to make data FAIR. Sometimes, the machines come to the researchers, 
+but sometimes the researchers need to visit the facility.
 
 Resulted in @larsson2023fair. See also @banks2019answers @scheliga2014putting.
 :::
@@ -249,7 +250,7 @@ Achieving statistical power ignores the individual. Citizen science helps find s
 :::
 :::
 
-## Preregistration with statistical power 1/2
+## Preregistration with statistical power 1/3
 
 ::: columns
 ::: {.column width="75%"}
@@ -261,7 +262,20 @@ One can do a specification curve analysis in a pre-registered study to keep stat
 :::
 :::
 
-## Preregistration with statistical power 2/2 @simonsohn2020specification
+## Preregistration with statistical power 2/3 @simonsohn2020specification
+
+::: columns
+::: {.column width="60%"}
+![](simonsohn2020specification_table_1_sub.png)
+:::
+
+::: {.column width="40%"}
+- Data: Hurricane name, amount of deaths, year, wind speed, pressure
+- Hypothesis: the name of a hurricane is a predictor of the amount of deaths
+:::
+:::
+
+## Preregistration with statistical power 3/3 @simonsohn2020specification
 
 ![](simonsohn_et_al_2020_fig_2_modified_higher_better_legend.png)
 
@@ -321,7 +335,7 @@ Previous webinar! 602 researchers. <https://zenodo.org/records/10528857>
 
 -   I hope to have convinced you that ...
 
-```
+```         
 literature + community
 
            >
