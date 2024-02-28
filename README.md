@@ -29,38 +29,6 @@ such as: ‘Is it worth it?’.
 In this webinar, Richèl Bilderbeek talks about some of 
 the pros and cons of Open Science and the Uppsala community.
 
-## Talk process
-
-```mermaid
-flowchart TD
-  subgraph preparation[Preparation]
-    subgraph step_1[Step 1: 5 hours]
-      read_literature[Read literature]
-    end
-    subgraph step_2[Step 2: 5 hours]
-      read_talks[Read talks]
-      read_literature_from_talks[Read literature from talks]
-    end
-    subgraph step_3[Step 3: 5 hours]
-      read_literature_again[Read literature again]
-    end
-  end
-  subgraph talk[Talk: 30 mins]
-    literature_section[Literature section]
-    talk_section[Talks section]
-    literature_section --> talk_section
-  end
-
-  read_literature --> literature_section
-  read_literature --> read_talks
-  read_talks --> talk_section
-  read_talks --> read_literature_from_talks
-  read_literature_from_talks --> read_literature_again
-  read_literature_from_talks --> talk_section
-  read_literature_from_talks --> literature_section
-  read_literature_again --> literature_section
-```
-
 ## Files used for continuous integration scripts
 
 Filename                           |Descriptions
